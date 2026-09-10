@@ -85,7 +85,7 @@ describe("media", ()=>{
 
 
 
-
+//Raiz
 
 describe("raiz", ()=>{
     test("calcula a raiz de um numero nao exato com precisao", ()=>{
