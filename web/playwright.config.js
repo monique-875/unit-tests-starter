@@ -7,11 +7,11 @@ export default defineConfig({
   use: {
     baseURL: "http://localhost:5173",
   },
-  projects: [{ name: "chomium", use: { ...devices["Desktop Chrome"] } }],
+  projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
   webServer: [
     {
       command: "npm run api:e2e",
-      cdw: "..",
+      cwd: "..",
       url: "http://localhost:3000/produtos",
       reuseExistingServer: false, //verificar se a imsgancia rofadndo vsi da rpoblema
     },
